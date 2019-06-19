@@ -6,6 +6,7 @@ module.exports = {
     lineNumbers: true,
     toc: { includeLevel: [1] }
   },
+  plugins: ['@vuepress/active-header-links', '@vuepress/back-to-top'],
   themeConfig: {
     sidebarDepth: 0,
     repo: 'fxss5201/vue-test-ui',
