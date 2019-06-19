@@ -1,6 +1,12 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <test-ui-button></test-ui-button>
+    <test-ui-button type="primary"></test-ui-button>
+    <test-ui-button type="success"></test-ui-button>
+    <test-ui-button type="warning"></test-ui-button>
+    <test-ui-button type="danger"></test-ui-button>
+    <test-ui-button type="info"></test-ui-button>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
