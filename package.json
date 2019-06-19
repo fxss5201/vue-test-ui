@@ -1,16 +1,24 @@
 {
   "name": "vue-test-ui",
   "version": "0.1.0",
-  "private": true,
+  "description": "vue-test-ui",
+  "main": "lib/vue-test-ui.umd.min.js",
+  "private": false,
+  "license": "MIT",
+  "author": "fxss5201",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "lib": "vue-cli-service build --target lib --name test-ui-btn --dest lib packages/index.js",
-    "deploy": "deploy.sh"
+    "lib": "vue-cli-service build --target lib --name vue-test-ui --dest lib packages/index.js",
+    "deploy": "deploy.sh",
+    "build": "vue-cli-service build",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fxss5201/vue-test-ui.git"
   },
   "dependencies": {
     "core-js": "^2.6.5",

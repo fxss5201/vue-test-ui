@@ -9,19 +9,19 @@
 ## 用法 ##
 
 ```
-npm install --save-dev test-ui-btn
+npm install --save-dev vue-test-ui
 ```
 
 ```javascript
-import TestUiBtn from 'test-ui-btn'
-Vue.use(TestUiBtn)
+import VueTestUi from 'vue-test-ui'
+Vue.use(VueTestUi)
 ```
 
 ```html
-<test-ui-btn></test-ui-btn>
-<test-ui-btn type="primary"></test-ui-btn>
-<test-ui-btn type="success"></test-ui-btn>
-<test-ui-btn type="warning"></test-ui-btn>
-<test-ui-btn type="danger"></test-ui-btn>
-<test-ui-btn type="info"></test-ui-btn>
+<test-ui-button></test-ui-button>
+<test-ui-button type="primary"></test-ui-button>
+<test-ui-button type="success"></test-ui-button>
+<test-ui-button type="warning"></test-ui-button>
+<test-ui-button type="danger"></test-ui-button>
+<test-ui-button type="info"></test-ui-button>
 ```
